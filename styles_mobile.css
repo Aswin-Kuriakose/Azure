@@ -1,0 +1,106 @@
+:root {
+    --text-color:1A1A1F;  
+}
+@font-face {
+    font-family: 'Azure';
+    src: url(/Assets/fonts/SegoeUI-Roman-VF_web.woff2);
+}
+body,a,li {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Azure';
+    line-height: 1.5;
+    font-weight: 400;
+}
+.screen-768px {
+    /* display: none; */
+}
+header{
+    min-width: 296px;
+    max-width: 743px;
+    height: 54px;
+    padding: 12px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-sec1 {
+    min-width: 130px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+.windows-logo {
+    width: 32px;
+    height: 32px;
+}
+.header-sec3 {
+    min-width: 130px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+.burger-nav,.windows-logo,.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-text {
+    /* color: var(--text-color); */
+    color: rgb(48, 46, 46);
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 37px 0 3px;
+}
+.burger-nav {
+    width: 44px;
+    height: 44px;
+}
+.burger-nav svg {
+    width: 20px;
+    max-width: 100%;
+}
+.nav-ul ul {
+    display: none;
+}
+form input {
+    display: none;
+} 
+.search {
+    width: 44px;
+    height: 44px;
+}
+.search img {
+    width: 20px;
+    height: 20px;
+}
+.sign-in {
+    color: var(--text-color);
+    padding: 20px;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

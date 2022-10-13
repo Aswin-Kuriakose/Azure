@@ -14,10 +14,10 @@ body,a,li {
     line-height: 1.5;
     font-weight: 400;
 }
-.screen-768px {
-    /* display: none; */
+.screen-768px > * {
+    display: none;
 }
-header{
+.mobile {
     min-width: 296px;
     max-width: 743px;
     height: 54px;
@@ -63,9 +63,6 @@ header{
 .burger-nav svg {
     width: 20px;
     max-width: 100%;
-}
-.nav-ul ul {
-    display: none;
 }
 form input {
     display: none;

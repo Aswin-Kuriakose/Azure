@@ -13,6 +13,7 @@ body,a,li {
     font-family: 'Azure';
     line-height: 1.5;
     font-weight: 400;
+    list-style: none;
 }
 .screen-768px > * {
     display: none;

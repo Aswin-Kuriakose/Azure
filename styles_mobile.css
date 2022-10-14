@@ -65,7 +65,7 @@ body,a,li {
     width: 20px;
     max-width: 100%;
 }
-form input {
+.search-input input , form input ,.big-screen {
     display: none;
 } 
 .search {
@@ -81,7 +81,49 @@ form input {
     padding: 20px;
     font-size: 14px;
 }
+nav ul li:hover {
+    text-decoration: underline;
+}
+nav ul li img:hover {
+    text-decoration: underline;
+}
+.logo-text:hover {
+    text-decoration: underline;
+}
+.sign-in:hover {
+    text-decoration: underline;
+}
 
+.mini-nav {
+    padding: 12px 0 ;
+    height: 24px;
+    background: #0078d4;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mini-navF  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.mini-nav img {
+    transform: rotate(90deg);
+    color: white;
+    width: 14px;
+    height: 14px;
+}
+.mini-nav p {
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+}
+.sec-1 {
+    background: url(/Assets/img/desktop-main-img.webp);
+    background-position: cover;
+}
 
 
 

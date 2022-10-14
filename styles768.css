@@ -18,4 +18,71 @@
     .screen-768px > * {
         display: block;
     }
+    .screen-768px {
+        display: flex;
+    }
+    .leftend-nav {
+        min-width: 552px;
+        padding: 0 12px;
+        margin: 0 auto 0 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .windows-logo {
+        width: 24px;
+        height: 24px;
+    }
+    .logo-text {
+        margin: 0 0 0 12px;
+    }
+    .nav-list770 {
+        margin: 0 0 0 12px;
+    }
+    .nav-list770 ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-flow: row;
+    }
+    .nav-list770 ul li {
+        display: flex;
+        align-items: center;
+        padding: 20px 8px;
+        font-size: 13px;
+        font-weight: 350;
+    }
+    .list-arrow {
+        width: 12px;
+        margin: 5px 0 0 4px;
+        transform: rotate(180deg);
+    }
+    .rightend-nav {
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+    }
+    .search {
+        width: 44px;
+        height: 44px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .search img {
+        width: 15px;
+        height: 15px;
+    }
+    .dot-svg svg  {
+        width: 28px;
+        height: 24px;
+    }
+    .dot-svg {
+        display: flex;
+        padding: 15px 8px;
+    }
+    .sign-in {
+        font-size: 13px;
+        padding: 20px 8px;
+    }
 }

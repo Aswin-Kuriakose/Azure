@@ -6,7 +6,6 @@
         margin: 0 0 0 24px;
     }
     .screen-768px {
-        height: 54px;
         max-width: 1310px;
         margin: 0 auto;
     }
@@ -43,13 +42,14 @@
         align-items: center;
         font-size: 13px;
         font-weight: 350px;
-
+        line-height: 0;
     }
     .nav-list1080 ul li {
         padding: 20px 8px;
         flex-wrap: wrap;
     }
     .nav-list1080 ul li:last-child {
+        white-space: nowrap;
         padding: 9px;
         margin: 0 6px;
         background-color: #89c402;
@@ -68,9 +68,3 @@
 
 
 
-
-@media screen and (max-width:1092px) {
-    .screen-768px {
-        /* height: 67px; */
-    }
-}

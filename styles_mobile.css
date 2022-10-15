@@ -5,10 +5,12 @@
     font-family: 'Azure';
     src: url(/Assets/fonts/SegoeUI-Roman-VF_web.woff2);
 }
+*{
+    margin: 0;
+    padding: 0;
+}
 body,a,li {
     box-sizing: border-box;
-    padding: 0;
-    margin: 0;
     text-decoration: none;
     font-family: 'Azure';
     line-height: 1.5;
@@ -21,7 +23,6 @@ body,a,li {
 .mobile {
     min-width: 296px;
     max-width: 743px;
-    height: 54px;
     padding: 12px;
     display: flex;
     flex-flow: row;
@@ -96,7 +97,7 @@ nav ul li img:hover {
 
 .mini-nav {
     padding: 12px 0 ;
-    height: 24px;
+    max-height: 43px;
     background: #0078d4;
     color: white;
     display: flex;
@@ -108,10 +109,10 @@ nav ul li img:hover {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    padding: 0 15px;
 }
 .mini-nav img {
     transform: rotate(90deg);
-    color: white;
     width: 14px;
     height: 14px;
 }
@@ -120,10 +121,72 @@ nav ul li img:hover {
     font-weight: 600;
     text-align: center;
 }
-.sec-1 {
-    background: url(/Assets/img/desktop-main-img.webp);
-    background-position: cover;
+.mini-nav p:hover {
+    text-decoration: underline;
 }
+.S1-first-text {
+   margin: 0 0 9px;
+   color: #50e6ff;
+   font-size: 20px;
+   font-weight: 600;
+}
+.S1-container {
+    padding: 0 15px;
+}
+.sec1-main {
+    background-image: url(/Assets/img/desktop-main-img.webp);
+    display: flex;
+    flex-flow: column;
+    position: relative;
+
+}
+.mini-navF img {
+    padding-left: 5px;
+}
+.sec1-main h1 {
+    font-size: 54px;
+    color: #f4f5f6;
+    font-weight: 600;
+    line-height: 1.1;
+
+}
+.S1-primary {
+    
+}
+
+.S1-secondary p {
+    color: #F8F9FA;
+    font-size: 18px;
+}
+.S1-secondary {
+    margin-top: 10%;
+}
+.S1-third {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+}
+.S1-third a {
+    margin-top: 12px;
+    padding: 10px 16px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+.S1-third a:first-child {
+    background: #0078d4;
+    color: #fff;
+}
+.S1-third a:last-child {
+    color: #50e6ff;
+    border: 1px solid #50e6ff;
+}
+.sec1-main-content {
+    padding: 60px 0 0 0;
+    max-width: 1310;
+    float: left;
+    text-align: center;
+}
+
 
 
 

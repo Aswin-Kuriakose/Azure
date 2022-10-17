@@ -85,5 +85,25 @@
         font-size: 13px;
         padding: 20px 8px;
     }
-   
+    .S1-third {
+        flex-flow: row;
+        justify-content: flex-start;
+    }
+    .S1-third a {
+        width: auto;
+        margin: 12px 0 0 0;
+    }
+    .S1-third a:first-child {
+        margin-right: 24px;
+    }
+    .sec1-main-content {
+        text-align: left;
+        width: 75%;
+        
+    }
+    .S1-container {
+        flex-flow: row;
+        justify-content: flex-start;
+    }
+    
 }

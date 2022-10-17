@@ -8,6 +8,7 @@
 *{
     margin: 0;
     padding: 0;
+    max-width: 1310px   ;
 }
 body,a,li {
     box-sizing: border-box;
@@ -180,13 +181,24 @@ nav ul li img:hover {
     font-size: 14px;
     border-radius: 4px;
 }
+.S1-third a:hover {
+    text-decoration: underline;
+}
 .S1-third a:first-child {
     background: #0078d4;
     color: #fff;
 }
+.S1-third a:first-child:hover {
+    background: #035696;
+
+}
 .S1-third a:last-child {
     color: #50e6ff;
     border: 1px solid #50e6ff;
+}
+.S1-third a:last-child:hover {
+    background: #50e6ff;
+    color: var(--text-color);
 }
 .sec1-main-content {
     /* padding: 60px 0 0 0; */
@@ -195,6 +207,83 @@ nav ul li img:hover {
     text-align: center;
 }
 
+.sec-2 {
+    padding: 60px 0;
+}
+.S2-primary-h2 {
+    padding: 0 15px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+}
+.sec2-content , .S2-last {
+    margin-top: 10%;
+    padding: 0 15px;
+}
+.sec2-content {
+    display: flex;
+    flex-flow: column;
+    gap: 24px;
+}
+.BS-ONLY {  
+    display: none;
+}
+.S2-items {
+    display: flex;
+    flex-flow: row  ;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    border-radius: 6px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.14);
+}
+.S2-subitems {
+    padding: 24px 24px 24px 12px;
+}
+.S2-subitems h3 {
+    color: #0062ad;
+    font-size: 20px;
+    font-weight: 600;
+}
+.S2-subitems h3:hover {
+    color: var(--text-color);
+    text-decoration: underline;
+}
+.S2-items img {
+    width: 68px;
+    height: 68px;
+}
+.S2-last {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+}
+.S2-last a {
+    font-weight: 600;
+}
+.Azure-bttn{
+    margin-bottom: 24px;
+    color: var(--text-color);
+
+}
+.overview-bttn {
+    padding: 10px 16px;
+    border: 1px solid #0078d4;
+    color: #0078d4;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 6px;
+    font-size: 14px;
+}
+.overview-bttn:hover {
+    background-color: #0078d4;
+    color: #fff;
+    text-decoration: underline;
+}
 
 
 

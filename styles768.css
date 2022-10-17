@@ -105,5 +105,47 @@
         flex-flow: row;
         justify-content: flex-start;
     }
-    
+    /* SECTION 2 */
+
+
+    .BS-ONLY {
+        display: block;
+    }
+    .sec2-content {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        column-gap: 30px;
+        row-gap: 20px;
+    }
+    .screen-768px {
+        position: sticky;
+        top: 670px;
+        width: 100%;
+    }
+    .item1{
+        background-image: url(/Assets/img/microsoft-ignite-desktop.jpg);
+
+        grid-row: 1/3;
+        grid-column: 1/2;
+    }
+    .item2 {
+        background-image: url(/Assets/img/build-agility-desktop.webp);
+        background-repeat: no-repeat;
+        grid-row: 1/2;
+    }
+    item3 {
+        background-image: url(/Assets/img/accelerate-app-innovation-desktop.webp);
+        background-repeat: no-repeat;
+        grid-row: 2/3;
+    }
+    .S2-items img {
+        display: none;
+    }
+    .S2-subitems {
+        padding: 24px;
+    }
+    .item2 , .item3 {
+        padding-left: 156px;
+    }
 }

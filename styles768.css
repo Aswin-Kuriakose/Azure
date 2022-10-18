@@ -236,6 +236,13 @@
     .S2-last a:last-child {
         width: auto;
     }
+    /* section 3 */
+    .sec3-grid-container {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        column-gap: 30px;
+        row-gap: 24px;
+    }
 
 
 

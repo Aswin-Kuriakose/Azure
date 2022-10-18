@@ -17,4 +17,8 @@
     .overview-bttn {
         width: auto;
     }
+    .sec3-text {
+        margin: 24px 0;
+        font-size: 16px;
+    }
 }

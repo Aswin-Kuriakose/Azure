@@ -242,9 +242,104 @@
         grid-template-rows: 1fr 1fr;
         column-gap: 30px;
         row-gap: 24px;
+        margin: 0;
     }
+    .sec3-content {
+        margin-top: 48px;
+    }
+    .sec3-display-img {
+        display: none;
+    }
+    .sec3-cardlist {
+        display: flex;
+        flex-flow: row;
+    }
+    .sec3-list-parent {
+        width: 25%;
+    }
+    .sec3-list {
+        margin: 0 12px 0 0 ;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .sec3-cards {
+        width: 75%;
+        padding: 0;
+    }
+    .sec3-list li {
+        width: 100%;
+        background: #f8f9fa;
+        border: none;
+        box-shadow: none;
+        font-size: 16px;
+        color: #4c4c51;
+        margin: 0 -3px 12px -3px ;
+        font-weight: 400;
+        text-align: start;
+    }
+    .sec3-list li:first-child {
+        position: static;
+        font-size: 16px;
+        color: var(--text-color);
+        font-weight: 600;
+        border-left: 4px solid #0062ad;
+        border-radius: 0;
+    }
+    .sec3-list li:nth-child(2) {
+        white-space: nowrap;
+    }
+    .sec3-list li:nth-child(5) {
+        white-space: nowrap;
+    }
+    .sec3-list li:last-child {
+        margin: 0;
+    }
+    .sec3-list li img {
+        display: none;
+    }
+    .sec3-list-link {
+        margin: 12px 0 14px 0 !important;
+        padding: 0;
+        text-align: start;
+        white-space: nowrap;
+        font-size: 14px;
 
+    }
+    .sec3-list-link li {
+        padding: 12px 12px 0;
+        font-weight: 600;
+    }
+    .sec3-list-link:hover {
+        text-decoration: underline;
+        color: #000
+    }
+    .sec-3 h2 {
+        text-align: left;
+        font-size: 24px;
+        /* width: 100%; */
+        max-width: 1310px;
+        padding: 0 15px;
+        font-weight: 600;
 
-
+    }
+    .azure-portal {
+        /* display: block; */
+        padding: 0 10px 0 10px;
+        margin-top: 5%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        color: #0062ad;
+        font-size: 14px;
+    } 
+    .azure-portal img {
+        width: 15px;
+        padding: 0 20px 0  0;
+    }
+    .sec3-cards {
+        padding-bottom: 0;
+    }
 
 }

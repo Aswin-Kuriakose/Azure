@@ -283,6 +283,9 @@ nav ul li img:hover {
 
 /* section 3 */
 
+.sec3-img-trans {
+    display: none;
+}
 .sec-3 {
     display: flex;
     flex-flow: column;
@@ -296,6 +299,7 @@ nav ul li img:hover {
     font-size: 20px;
     font-weight: 600;
     color: var(--text-color);
+    line-height: 1.2;
 }
 .sec-3 img {
     width: 36px;
@@ -309,11 +313,18 @@ nav ul li img:hover {
     padding: 12px 0;
     
 }
+.sec3-cardlist {
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+
+}
 .sec3-grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(3, 1fr);
     grid-gap: 18px;
+    margin-top: 72px;
 }
 .sec3-grid-container >div {
     background: #fff;
@@ -321,7 +332,6 @@ nav ul li img:hover {
     border-radius: 6px;
     border: 1px solid black transparent;
     box-shadow: 0 5px 10px rgba(0,0,0,0.14);
-
 
 }
 .sec3-text {
@@ -363,9 +373,44 @@ nav ul li img:hover {
 .sec3-list li img {
     width: 22px;
 }
+
 .sec3-list-link {
     color: #0062ad;
+    margin: 10%  auto 0;
+    padding: 0 15px;
+    font-size: 14px;
     
+}
+.sec3-list-link li {
+    font-weight: 600;
+}
+.sec3-list-link:hover {
+    color: #002847;
+    text-decoration:underline;
+
+}
+.sec3-display-img {
+    display: flex;
+    justify-content: center;
+    margin: 10% 17px 0 ;
+}
+.sec3-display-img img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    border-radius: 12px;
+    background: #000;
+    padding: 3%;
+}
+.azure-portal {
+    display: none;
+}
+.sec3-list li:first-child {
+    position: absolute;
+    top: 0;
+}
+.popular img {
+    transform: rotate(180deg);
 }
 
 

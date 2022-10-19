@@ -2,4 +2,57 @@
     .sec1-main-content {
         width: 50%;
     }
+    .sec3-img-trans {
+        display: block;
+        width: 25%;
+        margin-top: 48px;
+        position: relative;
+    }
+    .img-trans {
+        position: absolute;
+        left: 24px;
+        transition: 0.5s;
+    }
+    .img-trans:hover {
+        left: 0px;
+        transition:  0.5s;
+    }
+    .sec3-content {
+        width: 75%;
+    }
+    .azure-portal {
+        display: none;
+    }
+    .S3-container {
+        width: 100%;
+        display: flex;
+        flex-flow: row;
+    }
+    .featured-div img {
+        height: auto;
+        width: 847px;
+        height: 476px;
+        padding: 27px;
+        border-radius: 12px;
+        background: #000;
+    }
+    .portal-link {
+        color: #0062ad;
+        font-size: 14px;
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        padding:0 12px 0 10px;
+        width: 220px;
+        text-align: left;
+    }
+
+    .portal-link img {
+        width: 15px;
+        padding: 10px;
+    }
+    .S3-maxW {
+        max-width: 1310px;
+        margin: 0 auto;
+    }
 }

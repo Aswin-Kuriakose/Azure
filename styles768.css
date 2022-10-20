@@ -236,7 +236,9 @@
     .S2-last a:last-child {
         width: auto;
     }
+    
     /* section 3 */
+
     .sec3-grid-container {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
@@ -340,6 +342,20 @@
     }
     .sec3-cards {
         padding-bottom: 0;
+    }
+    .sec5-text {
+        margin-top: 0;
+    } 
+    .sec5-container {
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+    }
+    .sec5-img {
+        max-width: 500px;
+    }
+    .sec5-content {
+        width: 50%;
     }
 
 }

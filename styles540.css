@@ -27,5 +27,27 @@
     .sec3-list-link {
         margin-top: 24px;
     }
+    .S4-container {
+        margin-top: 12px;
+    }
+    .case-link {
+        margin-top: 24px;
+    }
+    .sec5-link {
+        margin-top: 36px;
+        justify-content: flex-start;
+    }
+    .sec5-text {
+        margin-top: 5%;
+    }
+    .sec5-text h2 {
+        text-align: left;
+
+    }
+    .sec5-link a {
+        width: auto;
+    }
+    
+
   
 }

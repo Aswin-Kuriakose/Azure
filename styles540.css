@@ -53,7 +53,21 @@
     .sec6-card-container {
         grid-template-columns: repeat(6, 35vw);
     }
+    .checkout-bttn {
+        margin-top: 24px;
+    }
     
     
   
+}
+@media screen and (min-width:570px) {
+    .sec7-img img:first-child {
+        display: block;
+    }
+    .sec7-img img:last-child{
+        display: none;
+    }
+    .circle {
+        top: 26%;
+    }
 }

@@ -154,4 +154,103 @@
         grid-column: 4/5;
         grid-row: 2/3;
     }
+    /* section 7 */
+
+    .S7 {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        padding: 0 15px;
+    }
+    .sec7-content {
+        width: 52%;
+        background-color: rgba(26, 26, 31, .94);
+        color: #f8f8fa;
+        border-radius: 6px;
+    }
+    .sec7-content p {
+        color: #f4f5f6;
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .sec7-watch {
+        visibility: visible;
+        display: block;
+        font-weight: 600;
+    }
+    .sec7-watch:hover {
+        text-decoration: underline;
+    }
+    .circle320{
+        display: none;
+    }
+    .sec7-img img:nth-child(2) {
+        display: block;
+        width: 100%;
+        height: 100%;
+        min-height: 600px;
+        max-height: 700px;
+        max-width: none;
+        object-fit: cover;
+    }
+    .sec7-img img:first-child {
+        display: none;
+    }
+    
+    .circle {
+        width: 24px;
+        height: 24px;
+        margin-right: 5px;
+        background: #50e6ff;
+        border-radius: 1000px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .play {
+        width: 8px;
+        height: 8px;
+        box-sizing: border-box;
+        border-style: solid;
+        border-width: 4px 0px 4px 8px;
+        border-color: transparent transparent transparent #0078d4;
+    
+    }
+    .S7-flex {
+        display: flex;
+        align-items: center;
+    }
+    .checkout-bttn {
+        margin-top: 12px;
+    }
+    .checkout-bttn a {
+        padding: 0;
+        width: 100%;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 600;
+        border: none;
+        border-radius: 6px;
+        margin: 12px 0 0 0;
+        text-decoration: underline;
+    }
+    .checkout-bttn a:hover {
+        color: #fff;
+        text-decoration: none;
+        background: transparent;
+    }
+    .S7-flex .play-button {
+        padding: 12px 16px;
+        margin: 12px 24px 0 0;
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        background: #006abb;
+        border-radius: 6px;
+    }
+    .sec7-container {
+        max-width: 1310px;
+        margin: 0 auto;
+    }
 }

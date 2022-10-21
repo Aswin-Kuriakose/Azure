@@ -357,5 +357,63 @@
     .sec5-content {
         width: 50%;
     }
+    /* section 6 */
+
+    .sec6-card-container {
+        grid-template-columns: 1fr 1fr 1fr !important;
+        grid-template-rows: repeat(2, 1fr);
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .S6-card {
+        width: 100%;
+        position: relative;
+    }
+    .one {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .two {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    .three {
+        grid-column: 3/4;
+        grid-row: 1/2;
+        background-image: url(/Assets/img/open-source.webp);
+        background-size: cover;
+        /* background-position: 50% 50%; */
+    }
+    .four {
+        grid-column:1/2 ;
+        grid-row: 2/3;
+    }
+    .five {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        background-image: url(/Assets/img/azure-regions-1250w.webp);
+        background-size: cover;
+    }
+    .six {
+        grid-column: 3/4;
+        grid-row: 2/3;
+    }
+    .S6-v2img-container  {
+        visibility: hidden;
+    }
+    .card-v2-supertext {
+        display: none;
+    }
+    .card-v2-text {
+        color: #fff;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .card-v2-text:hover {
+        color: #fff;
+    }
+
+
+
 
 }

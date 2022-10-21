@@ -47,7 +47,13 @@
     .sec5-link a {
         width: auto;
     }
+    .sec6-cards {
+        margin-top: 36px;
+    }
+    .sec6-card-container {
+        grid-template-columns: repeat(6, 35vw);
+    }
     
-
+    
   
 }

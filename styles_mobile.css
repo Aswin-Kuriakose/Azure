@@ -285,6 +285,7 @@ nav ul li img:hover {
 
 .sec3-img-trans {
     display: none;
+    overflow: hidden;
 }
 .sec-3 {
     display: flex;
@@ -551,7 +552,8 @@ nav ul li img:hover {
 .sec6-container {
     display: flex;
     flex-flow: column;
-
+    max-width: 1310px;
+    margin: 0 auto;
 }
 .sec6-text {
     padding: 0 15px;
@@ -568,23 +570,27 @@ nav ul li img:hover {
     padding: 0 15px;
 }
 .sec6-card-container {
-    display: flex;
-    flex-flow: row;
-    gap: 24px;
+    display: grid;
+    grid-template-columns: repeat(6, 75vw);
+    row-gap: 24px;
+    column-gap: 30px;
     padding: 12px 6px 36px;
     overflow-x: scroll;
 }
 /*  */
 .S6-card img {
-    width: 240px;
-    height: 120px;
-    border-radius: 6px;
-    
+    border-radius: 6px 6px 0 0;
+    width: 100%; 
+    max-width: 405px;
+    height: auto;
 }
-/*  */
+.S6-img-container {
+    /* height: auto; */
+}
 .S6-card {
     border-radius: 6px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.14);
+    width: 100%;
 }
 .card-content {
     padding: 12px;

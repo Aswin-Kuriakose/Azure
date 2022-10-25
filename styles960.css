@@ -253,4 +253,20 @@
         max-width: 1310px;
         margin: 0 auto;
     }
+
+  /* section 8 */
+
+    .sec8-container {
+        flex-flow: row;
+        gap: 30px;
+        max-width: 1310px;
+        margin: 0 auto;
+    }
+    .S8 {
+        width: 100%;
+    }
+
+
+
+
 }

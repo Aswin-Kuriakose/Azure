@@ -413,7 +413,34 @@
         color: #fff;
     }
 
+    /* section 8 */
 
+    .sec-8 img {
+        width: 48px;
+        height: 48px;
+        padding: 0;
 
+    }
+    .S8 {
+        flex-flow: column;
+        padding: 24px;
+
+    }
+    .S8 p {
+        display: block;
+    }
+    .S8-content {
+        margin-top: 24px;
+        width: 100%;
+    }
+    .S8 h3 {
+        padding: 0;
+        margin-bottom: 9px;
+    }
+    .S8-img-container {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
 
 }

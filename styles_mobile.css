@@ -741,6 +741,7 @@ nav ul li img:hover {
 .floating-msg {
     display: flex;
     flex-flow: row;
+    align-items: center;
     background: #0078d4;
     padding: 10px 18px;
     width: 115px;
@@ -748,20 +749,146 @@ nav ul li img:hover {
     position: fixed;
     right: 12px;
     bottom: 0px;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
 }
 .floating-msg span {
     width: 20px;
     height: 20px;
+    margin-top: -3px;
 }
 .floating-message {
     font-size: 14px;
+    font-weight: 350;
     color: #fff;
+    margin-left: 3px;
 }
 
-
-
-
-
+footer {
+    padding: 48px 0 36px;
+    background: #f4f5f6;
+}
+.footer-content {
+    max-width: 1310px;
+    margin: 0 auto;
+    padding: 0 18px;
+}
+.first-row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.first-row ul li svg {
+    width: 24px;
+    height: 24px;
+    padding: 2px 0;
+}
+.first-row ul li svg:hover {
+    fill: #4c4c51;
+}
+.first-row ul li:nth-child(2) {
+    margin: 0 24px;
+}
+.footer-azure img, .footer-azure span:first-child {
+    width: 24px;
+    height: 24px;
+    
+}
+.footer-azure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    background-color: #eaebec;
+    width: auto;
+    border-radius: 4px;
+}
+.footer-azure span:last-child {
+    margin: 0 0 0 12px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #4c4c51;    
+    
+}
+.logo-list {
+    margin: 12px 0 0 12px;
+    display: flex;
+    flex-flow: row;
+}
+ul.footer-listing {
+    display: none;
+}
+.footer-column  {
+    padding: 12px 24px;
+    background: #eaebec;
+    margin-top: 36px;
+    border-radius: 4px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-column h3 {
+    font-size: 14px;
+    font-weight: 600;
+}
+.footer-column img {
+    width: 17px;
+    height: 20px;
+}
+.third-row {
+    margin-top: 36px;
+}
+form {
+    display: flex;
+    flex-flow: column;
+    width: 188px;
+}
+form label {
+    margin-bottom: 8px;
+    font-size: 12px;
+    font-weight: 340;
+    width: 100%;
+}
+#languages {
+    width: 100%;
+    border: 1px solid #747479;
+    background: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 5px;
+    height: 36px;
+}
+.footer-nav {
+    margin-top: 36px;
+}
+.footer-nav ul {
+    display: flex;
+    justify-content: flex-end;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+.footer-nav ul li {
+    color: var(--text-color);
+    font-size: 12px;
+    margin: 0 0 12px 16px ;
+    padding: 2px 0;
+}
+.footer-nav ul li:hover { 
+    color: #4c4c51;
+    text-decoration: underline;
+}
+.footer-nav ul li:last-child {
+    margin-bottom: 0;
+    margin-left: 12px;
+}
+.copyright {
+    font-weight: 600;
+}
+.copyright:hover {
+    color: var(--text-color);
+    text-decoration: none;
+}
 
 
 

@@ -112,8 +112,8 @@ nav ul li img:hover {
     flex-wrap: wrap;
     padding: 0 15px;
 }
-.mini-nav img {
-    transform: rotate(90deg);
+.mini-nav svg{
+    transform: rotate(180deg);
     width: 14px;
     height: 14px;
 }
@@ -133,7 +133,7 @@ nav ul li img:hover {
 }
 .sec1-main {
     padding: 60px 0;
-    background-image: url(/Assets/img/desktop-main-img.webp);
+    background-image: url(/Assets/icons/index-hero-mobile.png);
     background-position: 50% 50%;
     background-size: cover;
 }
@@ -207,7 +207,7 @@ nav ul li img:hover {
     padding: 60px 0;
 }
 .S2-primary-h2 {
-    padding: 0 15px;
+    padding: 0 16px;
     font-size: 20px;
     font-weight: 600;
     line-height: 1.2;
@@ -255,7 +255,7 @@ nav ul li img:hover {
     flex-flow: column;
     align-items: center;
     justify-content: center;
-    padding: 24px;
+    padding: 24px 39px;
 }
 .S2-last a {
     font-weight: 600;
@@ -285,7 +285,7 @@ nav ul li img:hover {
 
 .sec3-img-trans {
     display: none;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 .sec-3 {
     display: flex;
@@ -382,6 +382,12 @@ nav ul li img:hover {
     font-size: 14px;
     
 }
+.sec3-list-link svg {
+    transform: rotate(180deg);
+    width: 12px;
+    height: 12px;
+    fill: #0062ad;
+}
 .sec3-list-link li {
     font-weight: 600;
 }
@@ -469,8 +475,13 @@ nav ul li img:hover {
 .case-link a {
     font-size: 14px;
     font-weight: 600;
-    color: #0062ad;
+    color: #0062ad; 
 }
+.case-link a svg {
+    width: 12px;
+    height: 12px;
+    transform: rotate(180deg);
+} 
 .case-link a:hover {
     text-decoration: underline;
 }
@@ -769,7 +780,7 @@ footer {
     background: #f4f5f6;
 }
 .footer-content {
-    max-width: 1310px;
+    max-width: 1280px;  
     margin: 0 auto;
     padding: 0 18px;
 }
@@ -839,7 +850,7 @@ ul.footer-listing {
 .third-row {
     margin-top: 36px;
 }
-form {
+.form-container form {
     display: flex;
     flex-flow: column;
     width: 188px;
@@ -889,9 +900,5 @@ form label {
     color: var(--text-color);
     text-decoration: none;
 }
-
-
-
-
 
 

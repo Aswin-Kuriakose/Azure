@@ -36,6 +36,9 @@
     .big-screen {
         display: block;
     }
+    .nav-list770 {
+        margin-left: 24px;
+    }
     .nav-list1080 ul {
         display: flex;
         flex-flow: row;
@@ -63,11 +66,23 @@
     .nav-list1080 ul li:last-child:hover {
         background: #9bc735;
     }
+    .green-bttn {
+        max-height: 33px;
+        
+    }
     
 }
 @media screen and (min-width:1280px) {
     .sec1-main {
         padding: 72px 0 280px 0;
+    }
+    .search-input {
+        margin-right: 24px;
+    }
+}
+@media screen and (min-width:1310px) {
+    .sec4-main-text {
+        width: 575px;
     }
 }
 

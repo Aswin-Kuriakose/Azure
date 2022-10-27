@@ -9,6 +9,7 @@
     }
     .sec3-img-trans {
         display: block;
+        padding: 0 15px;
         width: 25%;
         margin-top: 48px;
         position: relative;

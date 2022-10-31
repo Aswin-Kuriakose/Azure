@@ -251,6 +251,7 @@
     .sec3-grid-container {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
+        grid-auto-rows: 1fr;
         column-gap: 30px;
         row-gap: 24px;
         margin: 0;
@@ -264,6 +265,7 @@
     .sec3-cardlist {
         display: flex;
         flex-flow: row;
+        gap: 12px;
     }
     .sec3-list-parent {
         width: 25%;
